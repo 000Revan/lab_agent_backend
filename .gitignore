@@ -1,0 +1,38 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local environment variables (keep the configuration template)
+.env
+.env.*
+!.env.example
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Runtime uploads and generated vector database
+/uploads/
+/data/chroma/
+*.log
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
